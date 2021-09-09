@@ -1,0 +1,21 @@
+{
+  "name": "slack_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon slack.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Slack"
+  },
+  "author": "Yatin Bajaj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "socket.io": "^4.2.0"
+  }
+}
